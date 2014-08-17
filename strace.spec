@@ -2,12 +2,12 @@
 
 Summary:	prints system call strace of a running process
 Name:		strace
-Version:	4.7
+Version:	4.9
 Release:	1
 License:	BSD-like
 Group:		Development/Debuggers
 Source0:	http://downloads.sourceforge.net/strace/%{name}-%{version}.tar.xz
-# Source0-md5:	6054c3880a00c6703f83b57f15e04642
+# Source0-md5:	885eafadb10f6c60464a266d3929a2a4
 URL:		http://sourceforge.net/projects/strace/
 BuildRequires:	rpm-perlprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -48,7 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc COPYRIGHT CREDITS ChangeLog NEWS README-linux
+%doc COPYING CREDITS ChangeLog NEWS README-linux
 %attr(755,root,root) %{_bindir}/strace
 %attr(755,root,root) %{_bindir}/strace-log-merge
 %{_mandir}/man1/*
