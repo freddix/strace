@@ -3,7 +3,7 @@
 Summary:	prints system call strace of a running process
 Name:		strace
 Version:	4.9
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Development/Debuggers
 Source0:	http://downloads.sourceforge.net/strace/%{name}-%{version}.tar.xz
